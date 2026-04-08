@@ -77,7 +77,7 @@ Do not:
 
 ### 4. Create API Config Stubs
 
-- [x] Create `apps/api/src/config` config files. Commit: _pending_
+- [x] Create `apps/api/src/config` config files. Commit: 2ec085a
 
 Do:
 
