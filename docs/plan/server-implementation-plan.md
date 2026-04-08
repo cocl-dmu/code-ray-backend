@@ -368,7 +368,7 @@ Do not:
 
 ### 19. Final Skeleton Review
 
-- [x] Compare generated structure with the spec and fix missing skeleton items. Commit: _pending_
+- [x] Compare generated structure with the spec and fix missing skeleton items. Commit: 0db8f61
 
 Do:
 
