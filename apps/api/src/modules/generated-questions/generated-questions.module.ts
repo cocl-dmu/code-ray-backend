@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { GeneratedQuestionsController } from './generated-questions.controller';
 import { GeneratedQuestionsFacade } from './generated-questions.facade';
-import { GeneratedQuestionsRepository } from './generated-questions.repository';
+import { GeneratedQuestionsRepository } from './repositories/generated-questions.repository';
 import { GeneratedQuestionsService } from './generated-questions.service';
 
 @Module({
