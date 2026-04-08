@@ -142,7 +142,7 @@ Do not:
 
 ### 7. Create Worker Bootstrap and Config Stubs
 
-- [ ] Create `apps/worker` entry files and config stubs. Commit: _pending_
+- [x] Create `apps/worker` entry files and config stubs. Commit: 90b8a86
 
 Do:
 
