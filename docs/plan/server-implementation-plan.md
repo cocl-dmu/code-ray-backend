@@ -334,7 +334,7 @@ Do not:
 
 ### 17. Create Test Folders and Base Test Config
 
-- [ ] Create base test directories and config placeholders. Commit: _pending_
+- [x] Create base test directories and config placeholders. Commit: f1133d2
 
 Do:
 
