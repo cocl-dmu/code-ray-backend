@@ -17,7 +17,7 @@ Out of scope: module business logic, detailed DTO fields, worker job logic, GitH
 
 ### 1. Initialize NestJS Monorepo
 
-- [ ] Create base NestJS monorepo files. Commit: _pending_
+- [x] Create base NestJS monorepo files. Commit: cbd0796
 
 Do:
 
