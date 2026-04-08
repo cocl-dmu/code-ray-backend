@@ -266,7 +266,7 @@ Do not:
 
 ### 13. Create RabbitMQ and Redis Integration Stubs
 
-- [ ] Create RabbitMQ and Redis integration skeletons. Commit: _pending_
+- [x] Create RabbitMQ and Redis integration skeletons. Commit: _pending_
 
 Do:
 

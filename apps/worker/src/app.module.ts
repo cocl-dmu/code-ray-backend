@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
+import { RabbitMqModule, RedisModule } from '@app/integrations';
 import configuration from './config/configuration';
 import { envValidationSchema } from './config/env.validation';
 import { AnalysisRunJob } from './jobs/analysis-run.job';
@@ -16,7 +17,9 @@ import { CleanupScheduler } from './schedulers/cleanup.scheduler';
       load: [configuration],
       validationSchema: envValidationSchema,
     }),
-    // Shared/database/integrations modules will be wired here as their modules are added.
+    RabbitMqModule,
+    RedisModule,
+    // Shared/database modules will be wired here as they are added.
   ],
   providers: [
     AnalysisRunProcessor,

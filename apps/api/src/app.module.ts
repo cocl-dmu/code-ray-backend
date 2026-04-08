@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
+import { RabbitMqModule, RedisModule } from '@app/integrations';
 import configuration from './config/configuration';
 import { envValidationSchema } from './config/env.validation';
 import { AnalysisRunsModule } from './modules/analysis-runs/analysis-runs.module';
@@ -19,6 +20,8 @@ import { UsersModule } from './modules/users/users.module';
       load: [configuration],
       validationSchema: envValidationSchema,
     }),
+    RabbitMqModule,
+    RedisModule,
     AuthModule,
     UsersModule,
     GroupsModule,
