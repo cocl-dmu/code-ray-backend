@@ -93,7 +93,7 @@ Do not:
 
 ### 5. Create API Domain Module Skeletons
 
-- [ ] Create API module/controller/service/facade/repository stubs and folders. Commit: _pending_
+- [x] Create API module/controller/service/facade/repository stubs and folders. Commit: _pending_
 
 Do:
 
