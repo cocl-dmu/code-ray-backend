@@ -34,7 +34,7 @@ Do not:
 
 ### 2. Add Dependencies and Env Examples
 
-- [x] Add common server dependencies and env example files. Commit: _pending_
+- [x] Add common server dependencies and env example files. Commit: 670d48a
 
 Do:
 
